@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-login {
+    background-image: linear-gradient(
+        to right,
+        rgba(26, 37, 66, 0.7),
+        rgba(145, 30, 30, 0.856)
+      ),
+      url("../assets/oplib.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+h-full {
+    height: 100vh;
+}
+
+.row {
+    min-width: 80%;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.divider {
+    width:5vw;
+    padding: 2px;
+}
+
+.sampul-buku {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.buku-container {
+    height: 100vh; 
+    overflow-y:auto;
+}
+
+@media (min-width: 992px) {
+    .buku-container {
+        height: 89.5vh; 
+        overflow-y:auto;
+    }    
+}
